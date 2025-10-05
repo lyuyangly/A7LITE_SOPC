@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="A7LITE_TEST_SIM_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="A7LITE_TEST_SIM" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="269"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="42" />
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/LED1">
+      <obj_property name="ElementShortName">LED1</obj_property>
+      <obj_property name="ObjectShortName">LED1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/LED2">
+      <obj_property name="ElementShortName">LED2</obj_property>
+      <obj_property name="ObjectShortName">LED2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/UART_RX">
+      <obj_property name="ElementShortName">UART_RX</obj_property>
+      <obj_property name="ObjectShortName">UART_RX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/UART_TX">
+      <obj_property name="ElementShortName">UART_TX</obj_property>
+      <obj_property name="ObjectShortName">UART_TX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/U_PIO/s_axi_aclk">
+      <obj_property name="ElementShortName">s_axi_aclk</obj_property>
+      <obj_property name="ObjectShortName">s_axi_aclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/U_PIO/s_axi_aresetn">
+      <obj_property name="ElementShortName">s_axi_aresetn</obj_property>
+      <obj_property name="ObjectShortName">s_axi_aresetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_arlen">
+      <obj_property name="ElementShortName">cpu_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_arsize">
+      <obj_property name="ElementShortName">cpu_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_arsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_arburst">
+      <obj_property name="ElementShortName">cpu_arburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_arburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_araddr">
+      <obj_property name="ElementShortName">cpu_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_arready">
+      <obj_property name="ElementShortName">cpu_arready</obj_property>
+      <obj_property name="ObjectShortName">cpu_arready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_arvalid">
+      <obj_property name="ElementShortName">cpu_arvalid</obj_property>
+      <obj_property name="ObjectShortName">cpu_arvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_awlen">
+      <obj_property name="ElementShortName">cpu_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_awlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_awsize">
+      <obj_property name="ElementShortName">cpu_awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_awsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_awburst">
+      <obj_property name="ElementShortName">cpu_awburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_awburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_awaddr">
+      <obj_property name="ElementShortName">cpu_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_awready">
+      <obj_property name="ElementShortName">cpu_awready</obj_property>
+      <obj_property name="ObjectShortName">cpu_awready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_awvalid">
+      <obj_property name="ElementShortName">cpu_awvalid</obj_property>
+      <obj_property name="ObjectShortName">cpu_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_rlast">
+      <obj_property name="ElementShortName">cpu_rlast</obj_property>
+      <obj_property name="ObjectShortName">cpu_rlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_rready">
+      <obj_property name="ElementShortName">cpu_rready</obj_property>
+      <obj_property name="ObjectShortName">cpu_rready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_rvalid">
+      <obj_property name="ElementShortName">cpu_rvalid</obj_property>
+      <obj_property name="ObjectShortName">cpu_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_rdata">
+      <obj_property name="ElementShortName">cpu_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_rresp">
+      <obj_property name="ElementShortName">cpu_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_wready">
+      <obj_property name="ElementShortName">cpu_wready</obj_property>
+      <obj_property name="ObjectShortName">cpu_wready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_wvalid">
+      <obj_property name="ElementShortName">cpu_wvalid</obj_property>
+      <obj_property name="ObjectShortName">cpu_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_wstrb">
+      <obj_property name="ElementShortName">cpu_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_wdata">
+      <obj_property name="ElementShortName">cpu_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_wlast">
+      <obj_property name="ElementShortName">cpu_wlast</obj_property>
+      <obj_property name="ObjectShortName">cpu_wlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_bvalid">
+      <obj_property name="ElementShortName">cpu_bvalid</obj_property>
+      <obj_property name="ObjectShortName">cpu_bvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_bready">
+      <obj_property name="ElementShortName">cpu_bready</obj_property>
+      <obj_property name="ObjectShortName">cpu_bready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/cpu_bresp">
+      <obj_property name="ElementShortName">cpu_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/hdmi_araddr">
+      <obj_property name="ElementShortName">hdmi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hdmi_araddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/hdmi_arlen">
+      <obj_property name="ElementShortName">hdmi_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hdmi_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/hdmi_arsize">
+      <obj_property name="ElementShortName">hdmi_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">hdmi_arsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/hdmi_arburst">
+      <obj_property name="ElementShortName">hdmi_arburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">hdmi_arburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/hdmi_arvalid">
+      <obj_property name="ElementShortName">hdmi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">hdmi_arvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/hdmi_arready">
+      <obj_property name="ElementShortName">hdmi_arready</obj_property>
+      <obj_property name="ObjectShortName">hdmi_arready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/hdmi_rdata">
+      <obj_property name="ElementShortName">hdmi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hdmi_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/A7LITE_TEST_SIM/U_DUT/hdmi_rresp">
+      <obj_property name="ElementShortName">hdmi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">hdmi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/hdmi_rlast">
+      <obj_property name="ElementShortName">hdmi_rlast</obj_property>
+      <obj_property name="ObjectShortName">hdmi_rlast</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/hdmi_rvalid">
+      <obj_property name="ElementShortName">hdmi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">hdmi_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/A7LITE_TEST_SIM/U_DUT/hdmi_rready">
+      <obj_property name="ElementShortName">hdmi_rready</obj_property>
+      <obj_property name="ObjectShortName">hdmi_rready</obj_property>
+   </wvobject>
+</wave_config>
